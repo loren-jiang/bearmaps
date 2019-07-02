@@ -57,7 +57,7 @@
                     <appName>bearmaps-lorenjiang</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
-                        <web>java -jar ./target/bearmaps-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar -Dserver.port=$PORT ./target/bearmaps-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                     <includeTarget>false</includeTarget>
                     <includes>

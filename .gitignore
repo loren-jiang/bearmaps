@@ -1,2 +1,5 @@
 *.zip
+*.png
 /.idea
+/target
+/img

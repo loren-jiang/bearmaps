@@ -86,6 +86,7 @@ public class MapServer {
     }
     public static void main(String[] args) {
         initialize();
+        port(getHerokuAssignedPort());
         staticFileLocation("/page");
         /* Allow for all origin requests (since this is not an authenticated server, we do not
          * care about CSRF).  */
