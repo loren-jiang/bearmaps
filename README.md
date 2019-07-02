@@ -6,6 +6,10 @@ BearMaps is an interactive web-mapping application for the greater Berkeley area
 ![](demo-optimize.gif)
 
 ## Want to run?
-- Download `bearmaps-1.0-jar-with-dependencies.jar` and execute (see GDrive link below)
-	- https://drive.google.com/drive/folders/1wIiM5Z_d4msd5zPA0JNkmHRPzSV5uKqE?usp=sharing 
-	- Note: must have JDK installed (see https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- ### Heroku web app
+	- http://bearmaps-lorenjiang.herokuapp.com/map.html
+	
+- ### Local `.jar` executable
+	- Download `bearmaps-1.0-jar-with-dependencies.jar` and execute (see GDrive link below)
+		- https://drive.google.com/drive/folders/1wIiM5Z_d4msd5zPA0JNkmHRPzSV5uKqE?usp=sharing 
+		- Note: must have JDK installed (see https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
